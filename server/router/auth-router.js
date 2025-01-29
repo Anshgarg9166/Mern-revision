@@ -15,4 +15,6 @@ router.route("/new").get((req,res)=>{   //both are same
 })
 
 router.route("/register").post(authcontrollers.register);
+router.route("/login").post(authcontrollers.login);
+
 module.exports = router;
